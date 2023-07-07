@@ -1,7 +1,13 @@
+import Navbar from '../../components/Navbar';
+
+
 export default function Shirt(){
     return (
-        <h1>
-            Camisa - R$ 19,00
-        </h1>
+        <>
+            <Navbar/>
+            <h1>
+                Camisa - R$ 19,00
+            </h1>
+        </>
     )
 }
